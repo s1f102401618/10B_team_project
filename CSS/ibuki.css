@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
 .toc-content a {
     color: black;
     text-decoration-line: none;
@@ -7,8 +9,23 @@
     color:rgb(163, 255, 255);
 }
 .toc-main{
-    background-color: rgba(128, 128, 128, 0.46);
+    background-color: rgba(128, 128, 128, 0.303);
 }
 h3 {
     border-bottom:  2px solid gray;
+}
+.menber ,.supportmenber ,.profile2{
+    margin-bottom: 50px;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+.profile2 dt{
+    color: rgb(74, 197, 197);
+    margin-top: 10px;
+}
+.profile2 {
+    letter-spacing: 3px;
 }
