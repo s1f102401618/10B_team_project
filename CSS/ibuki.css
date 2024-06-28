@@ -7,15 +7,15 @@
     
 }
 .toc-content li::marker{
-    color:rgb(163, 255, 255);
+    color:#79e3fb;
 }
 .toc-main{
-    background-color: rgba(128, 128, 128, 0.303);
+    background-color: rgba(151, 151, 151, 0.303);
 }
-h3 {
+.main-yorusika h2{
     border-bottom:  2px solid gray;
 }
-.menber ,.supportmenber ,.profile2{
+.menber ,.supportmenber ,.profile2,.name{
     margin-bottom: 50px;
 }
 body{
@@ -76,5 +76,14 @@ nav{
 }
 .logo-area ,.nav-links{
     font-family: "Ubuntu", sans-serif;
+}
+.name span{
+    background: linear-gradient(transparent 80%, #79e3fb 50%);
+}
+.toc2 h3{
+    border-left: 4px solid #888888;
+    padding: 1px 3px;
+    ;
+    
 }
 
